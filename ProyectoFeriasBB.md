@@ -1,5 +1,5 @@
 <h1> nombre del proyecto:</h1>  
-<h3> Integrantes:</h3>
+<h3> Integrantes responsables del proyecto:</h3>
 **I. Introducción** 
 /// => => Respetar los signos de puntuacion. =0
 
