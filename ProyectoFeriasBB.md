@@ -1,7 +1,9 @@
 <h1> nombre del proyecto:</h1>  
 <h3> Integrantes responsables del proyecto:</h3>
+
 **I. Introducción** 
-/// => => Respetar los signos de puntuacion. =0
+
+<!-- => => Respetar los signos de puntuacion. =0-->
 
 <p>En Bahía Blanca existen muchas ferias donde se ofrecen productos con una gran variedad; entre estos, se pueden mencionar alimentos, artesanías, ropa, productos para el hogar, plantas, libros, cosmética y artículos de emprendedores locales, además de espacios gastronómicos con food trucks (vehículo acondicionado como un restaurante sobre ruedas). En estas trabajan emprendedores, artesanos y productores locales, donde generan ingresos de manera independiente; además, son un espacio de encuentro para la comunidad, ya que la venta de productos no es la única actividad que se realiza; también hay música y actividades para toda la familia y comunidad.  
    
@@ -125,7 +127,7 @@ En el transcurso de la investigación se observaron los siguientes problemas**:*
 * Según el informe que se presentó de la UNS sobre las ferias de Bahía Blanca, no existe un sistema que reúna toda la información para consulta acerca de todas las ferias, ni tampoco hay un sitio que informe el lugar donde se organizan ni sus fechas y horarios, ni que especifique qué productos son los que se venden ni una red social del emprendimiento.  
 * En Bahía Blanca, la Municipalidad desarrolló de manera online un sistema integral de cartografía y mapas desarrollados para tratar de unificar toda la información que se encuentra geo-referenciada en distintos mapas que posee la Municipalidad, a partir de distintas bases de datos de información. La plataforma permanece bajo el mensaje de "actualización" o mantenimiento constante, limitando severamente el acceso a capas de datos unificadas.  
 * En la observación realizada sobre las noticias de las publicaciones de redes sociales o canales de difusión del Municipio, se observó que todos los fines de semana se publican “algunas” de las ferias disponibles con sus horarios y ubicación, pero no especifican más información sobre los puestos.  
-* Algunas ferias cambian de lugar o de fecha y horario.  
+* Algunas ferias cambian de lugar o de fecha y horario.  (intinerantes)
 * Muchas veces, por mal clima, las que son realizadas al aire libre se suspenden y no hay un lugar que pueda advertir a la comunidad de esto (reprogramación de fecha y horario).  
 * Los feriantes necesitan mayor difusión e impulsar sus ventas.  
 * El Municipio no cuenta con toda la información ordenada, organizada y completa de las ferias de Bahía Blanca.
@@ -134,11 +136,16 @@ En el transcurso de la investigación se observaron los siguientes problemas**:*
 
 El objetivo de este trabajo es realizar un documento de definición de requerimientos para el desarrollo de un sistema que permitirá mostrar y organizar la información acerca de las ferias que se llevan a cabo en el Municipio de Bahía Blanca.  
 Se buscará información mediante la consulta a los usuarios del sistema (comunidad que asiste a ferias, feriantes y Municipio), utilizando además diferentes técnicas de exploración de requerimientos que especificaremos más adelante. Esto permitirá conocer la situación actual de las ferias, detectar las necesidades existentes de cada usuario del sistema, además de definir los requerimientos funcionales y no funcionales que abarcará el sistema propuesto.  
+   <!-- recordar que la persona que lee el documento no conoce lenguaje tecnico 
+   propongo utilizar el siguiente item a modo de ejemplo
+   * se buscara informacion mediante la consuta a diferentes personas y referentes de ferias y municipio de ahoa en adelante llamados co. la generalidad de USUARIOS-->
    
 **VI. Propuesta**
 
-La propuesta consiste en desarrollar un sistema para centralizar y organizar la información para la comunidad de las ferias del Municipio de Bahía Blanca en un solo lugar, y así facilitar su búsqueda y consulta. Se propone brindar ayuda a los feriantes con respecto a la visibilización de sus puestos (búsqueda de puestos por rubro y feria), mejorar la calidad y seguridad de sus productos por medio de la capacitación e impulsar y mejorar sus ventas.  
-Además, el sistema permitirá al Municipio contar con información organizada y que posibilitará realizar estadísticas sobre las ferias. Esto facilitará una mejor administración de estos espacios y una mayor difusión de las ferias y de los puestos de vendedores independientes. A su vez, esta información servirá como base para tomar decisiones, planificar estrategias de apoyo al sector, ofrecer capacitaciones gratuitas, realizar controles, promover la venta segura de alimentos y resguardar la salud de la comunidad. Asimismo, las estadísticas obtenidas permitirán evaluar la evolución de las ferias y desarrollar futuras acciones de mejora para el sector.  
+La propuesta consiste en desarrollar un sistema para centralizar y organizar la información para la comunidad de las ferias del Municipio de Bahía Blanca en un solo lugar, y así facilitar su búsqueda y consulta. 
+Se propone brindar ayuda a los feriantes con respecto a la visibilización de sus puestos (búsqueda de puestos por rubro y feria), mejorar la calidad y seguridad de sus productos por medio de la capacitación e impulsar y mejorar sus ventas.  
+Además, el sistema permitirá al Municipio contar con información organizada y que posibilitará realizar estadísticas sobre las ferias. Esto facilitará una mejor administración de estos espacios y una mayor difusión de las ferias y de los puestos de vendedores independientes. 
+A su vez, esta información servirá como base para tomar decisiones, planificar estrategias de apoyo al sector, ofrecer capacitaciones gratuitas, realizar controles, promover la venta segura de alimentos y resguardar la salud de la comunidad. Asimismo, las estadísticas obtenidas permitirán evaluar la evolución de las ferias y desarrollar futuras acciones de mejora para el sector.  
 El sistema tendrá un apartado de asesoramiento para los feriantes sobre cómo acceder a los diferentes requerimientos municipales para el buen funcionamiento de las ferias, por ejemplo: cómo hacer el trámite de monotributo, dónde hacer el curso de manipulación de alimentos (anunciar dónde se da el curso, horarios y duración) y la posibilidad de que quienes elaboran alimentos puedan acceder a PUPAA.  
 También, permitirá que cada feriante y encargado pueda verificar su puesto y anunciar su presencia en una u otra feria, ya que puede pasar que un feriante sea itinerante entre las ferias (por cuestiones climáticas o simple preferencia). 
 
@@ -149,6 +156,17 @@ El sistema se plantea como una solución centralizada para reunir información q
 **b) Características del producto**
 
 El sistema contará con diferentes características orientadas a cubrir las necesidades de sus tres tipos de usuarios: comunidad, feriantes y Municipio. Entre sus principales características se encuentran:
+<ol>
+   <li> Consulta y búsqueda de ferias: permitirá acceder a información sobre las ferias, sus ubicaciones, fechas, horarios y productos disponibles.  </li>
+   <li> Mapa de ferias: permitirá visualizar la ubicación de las diferentes ferias.  </li>
+* Gestión de emprendimientos: permitirá a los feriantes administrar la información de sus puestos y emprendimientos.  
+* Difusión: permitirá mostrar productos, fotografías y redes sociales de los emprendimientos.  
+* Actualizaciones: permitirá informar cambios de fechas, horarios, ubicaciones o suspensiones.  
+* Asesoramiento para feriantes: brindará información sobre trámites municipales y capacitaciones.  
+* Gestión municipal: permitirá al Municipio administrar la información de las ferias y obtener estadísticas.  
+* Filtros y búsquedas: facilitará la búsqueda de ferias y emprendimientos según diferentes criterios.  
+* Información para la comunidad: permitirá consultar de manera centralizada la información necesaria para conocer y asistir a las ferias.
+</ol>
 
 * Consulta y búsqueda de ferias: permitirá acceder a información sobre las ferias, sus ubicaciones, fechas, horarios y productos disponibles.  
 * Mapa de ferias: permitirá visualizar la ubicación de las diferentes ferias.  
