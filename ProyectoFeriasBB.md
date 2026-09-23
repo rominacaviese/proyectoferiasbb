@@ -1,6 +1,7 @@
 <h1> nombre del proyecto:</h1>  
 <h3> Integrantes:</h3>
-**I. Introducción**
+**I. Introducción** 
+/// => => Respetar los signos de puntuacion. =0
 
 <p>En Bahía Blanca existen muchas ferias donde se ofrecen productos con una gran variedad; entre estos, se pueden mencionar alimentos, artesanías, ropa, productos para el hogar, plantas, libros, cosmética y artículos de emprendedores locales, además de espacios gastronómicos con food trucks (vehículo acondicionado como un restaurante sobre ruedas). En estas trabajan emprendedores, artesanos y productores locales, donde generan ingresos de manera independiente; además, son un espacio de encuentro para la comunidad, ya que la venta de productos no es la única actividad que se realiza; también hay música y actividades para toda la familia y comunidad.  
    
