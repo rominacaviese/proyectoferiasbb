@@ -1,5 +1,6 @@
 <h1> nombre del proyecto:</h1>  
-<h3> Integrantes responsables del proyecto:</h3>
+<h3> Integrantes responsables del proyecto:
+Barrientos Camila - Caviese Romina - Rodriguez Fabián - Sotomayor Leandro</h3>
 
 **I. Introducción** 
 
